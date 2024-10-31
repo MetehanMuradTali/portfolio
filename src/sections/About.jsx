@@ -19,7 +19,7 @@ const About = () => {
             <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full'>
                 <div className='col-span-1 xl:row-span-3'>
                     <div className='grid-container'>
-                        <img src="/assets/grid1.png" alt="grid-1" className='w-full sm:h-[276px] h-fit object-contain' />
+                        <img src="assets/grid1.png" alt="grid-1" className='w-full sm:h-[276px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'> Hi, I'm Metehan</p>
                             <p className='grid-subtext'> As a new graduate computer science student i honed my skills in various technologies to be a full stack developer</p>
@@ -29,7 +29,7 @@ const About = () => {
                 </div>
                 <div className='col-span-1 xl:row-span-3 '>
                     <div className='grid-container'>
-                        <img src='/assets/grid2.png' alt="grid-2" className='w-full sm:h-[276px] h-fit object-contain' />
+                        <img src='assets/grid2.png' alt="grid-2" className='w-full sm:h-[276px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'> Tech Stack </p>
                             <p className='grid-subtext'> I specialize in JavaScript/TypeScript with a focus on React and NextJS ecosystems.</p>
@@ -74,7 +74,7 @@ const About = () => {
                         <div className='space-y-2'>
                             <p className='grid-subtext text-center'>Contact Me</p>
                             <div className='copy-container' onClick={handleCopy}>
-                                <img src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'} alt="copy" className='w-6 h-6' />
+                                <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" className='w-6 h-6' />
                                 <p className='md:text-xl font-medium text-gray_gradient text-white'>metehanmuradtali@gmail.com</p>
                             </div>
                         </div>

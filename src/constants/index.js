@@ -63,19 +63,19 @@ export const myProjects = [
         subdesc:
             'Built as a unique web platform with Next.js 14, Tailwind CSS, and MongoDB, Giresuni is designed for fast performance and scalability.',
         href: 'https://www.giresuni.com',
-        texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
+        texture: 'textures/project/project1.mp4',
+        logo: 'assets/project-logo1.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight1.png',
+        spotlight: 'assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: 'assets/react.svg',
             },
             {
                 id: 2,
@@ -85,12 +85,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'MongoDB',
-                path: '/assets/mongoDB.png',
+                path: 'assets/mongoDB.png',
             },
             {
                 id: 4,
                 name: 'Next.js',
-                path: '/assets/nextJs.jpg',
+                path: 'assets/nextJs.jpg',
             },
         ],
     },
@@ -100,19 +100,19 @@ export const myProjects = [
         subdesc:
             'With TALI, users can experience the future of communication, where conversations happen in real time across the globe without any delay. Builted with Flutter, Bloc and Firebase. ( In my private reposirory but can provide with codes if requested )',
         href: 'https://github.com/MetehanMuradTali',
-        texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        texture: 'textures/project/project2.mp4',
+        logo: 'assets/project-logo2.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: 'assets/spotlight2.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/flutterLogo.png',
+                path: 'assets/flutterLogo.png',
             },
             {
                 id: 2,
@@ -122,7 +122,7 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'TypeScript',
-                path: '/assets/firebaseLogo.png',
+                path: 'assets/firebaseLogo.png',
             },
 
         ],

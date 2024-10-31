@@ -20,6 +20,6 @@ export function ReactModel(props) {
     )
 }
 
-useGLTF.preload('/models/react.glb')
+useGLTF.preload('models/react.glb')
 
 export default ReactModel
