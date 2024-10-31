@@ -3,8 +3,8 @@ import { useGLTF, useTexture } from '@react-three/drei'
 
 const HackerRoom = (props) => {
     const { nodes, materials } = useGLTF('gltf/scene-transformed.glb')
-    const screenTexture = useTexture('/textures/desk/screen.png');
-    const monitorTexture = useTexture('/textures/desk/monitor.png');
+    const screenTexture = useTexture('textures/desk/screen.png');
+    const monitorTexture = useTexture('textures/desk/monitor.png');
 
 
     return (

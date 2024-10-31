@@ -3,7 +3,7 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { useRef } from 'react'
 export function ReactModel(props) {
-    const { nodes, materials } = useGLTF('/models/react.glb')
+    const { nodes, materials } = useGLTF('models/react.glb')
     const refReactModel = useRef()
 
 
