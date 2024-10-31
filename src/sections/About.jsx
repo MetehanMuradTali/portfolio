@@ -60,7 +60,7 @@ const About = () => {
                 </div>
                 <div className='xl:col-span-2 xl:row-span-3 '>
                     <div className='grid-container'>
-                        <img src='/assets/grid3.png' alt="grid-3" className='w-full sm:h-[266px] h-fit object-contain' />
+                        <img src='assets/grid3.png' alt="grid-3" className='w-full sm:h-[266px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'>My Passion for Coding</p>
                             <p className='grid-subtext'>I love solving problems and building things through code. Coding isn't just my professsion - it is my passion</p>
@@ -70,7 +70,7 @@ const About = () => {
                 </div>
                 <div className='xl:col-span-1 xl:row-span-2'>
                     <div className='grid-container'>
-                        <img src='/assets/grid4.png' alt="grid-4" className='w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top' />
+                        <img src='assets/grid4.png' alt="grid-4" className='w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top' />
                         <div className='space-y-2'>
                             <p className='grid-subtext text-center'>Contact Me</p>
                             <div className='copy-container' onClick={handleCopy}>
