@@ -57,7 +57,7 @@ const Hero = () => {
                             />
                         </HeroCamera>
                         <group>
-                            <Target position={isMobile ? [-5.2, 4, -2.5] : [-12, 2.5, -2]} rotation={[1.2, 0.7, -0.4]} />
+                          
                             <ReactLogo position={isMobile ? [4.5, 3.3, -2] : [11, 3.4, -2]} rotation={[0.4, -0.6, 0]} />
                             <Cube position={isMobile ? [-4.3, -9.5, -2] : [-12, -10, -2]} />
                             <Rings position={isMobile ? [8.8, -18, -2] : [22, -18, -2]} />
@@ -78,3 +78,5 @@ const Hero = () => {
 }
 
 export default Hero
+
+//  <Target position={isMobile ? [-5.2, 4, -2.5] : [-12, 2.5, -2]} rotation={[1.2, 0.7, -0.4]} />
