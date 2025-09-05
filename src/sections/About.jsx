@@ -22,7 +22,7 @@ const About = () => {
                         <img src="assets/grid1.png" alt="grid-1" className='w-full sm:h-[276px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'> Hi, I'm Metehan</p>
-                            <p className='grid-subtext'> As a new graduate computer science student i honed my skills in various technologies to be a full stack developer</p>
+                            <p className='grid-subtext'>As a master's student in computer science, I develop end-to-end projects and solutions, leveraging my skills across various technologies as a full stack developer.</p>
 
                         </div>
                     </div>
@@ -32,7 +32,7 @@ const About = () => {
                         <img src='assets/grid2.png' alt="grid-2" className='w-full sm:h-[276px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'> Tech Stack </p>
-                            <p className='grid-subtext'> I specialize in JavaScript/TypeScript with a focus on React and NextJS ecosystems.</p>
+                            <p className='grid-subtext'> I specialize in JavaScript/TypeScript with a focus on React and Next.js ecosystems, as well as Flutter and Dart for mobile development.</p>
 
                         </div>
                     </div>

@@ -126,6 +126,81 @@ export const myProjects = [
             },
 
         ],
+    },
+    {
+        title: 'AI Coach - Smart Study-Plan and Session Scheduler',
+        desc: 'AI Mentor is a Firebase-backed Flutter app that generates personalized study schedules with Google Gemini and includes an AI-powered learning area to explain topics and answer questions.',
+        subdesc:
+            'Features email/password auth, Cloud Firestore storage, Windows/Web/Android support, and an integrated “Learn with AI” chat where you can explore session topics and get guided explanations.',
+        href: 'https://github.com/MetehanMuradTali/Ai-Coach',
+        texture: 'textures/project/project3.mp4',
+        logo: 'assets/project-logo3.png',
+        logoStyle: {
+            backgroundColor: '#bca1b8ff',
+            border: '0.2px solid #ddb3d6ff',
+            boxShadow: '0px 0px 60px 0px #b570acff',
+        },
+        spotlight: 'assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: 'assets/flutterLogo.png',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/bloc.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: 'assets/firebaseLogo.png',
+            },
+
+        ],
+    },
+    {
+    title: "Ramazan Mermer Sanayi - Corporate Website",
+    desc: "A corporate website for Ramazan Mermer Sanayi, built with React, Next.js, MongoDB, Tailwind CSS, and UploadThing for seamless image uploads and management.",
+    subdesc: "Features a fully responsive design, product showcases, contact form, and modern UI/UX practices. Demonstrates integration of backend database and file upload handling in a professional web application.",
+    href: "https://ramazanmermersanayi.vercel.app"
+    ,
+    texture: 'textures/project/project4.mp4',
+    logo: 'assets/project-logo4.png',
+    logoStyle: {
+        backgroundColor: 'rgba(70, 100, 134, 0.3)', // mavi-siyahımsı, soluk ton
+    border: '0.2px solid rgba(23, 41, 62, 0.55)', // daha koyu mavi-siyahımsı border
+    boxShadow: '0px 0px 60px 0px #1b599bff, 0px 0px 60px 0px #0e2c4fff', // hafif glow efekti
+    },
+    spotlight: 'assets/spotlight2.png',
+    tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: 'assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'MongoDB',
+                path: 'assets/mongoDB.png',
+            },
+            {
+                id: 4,
+                name: 'Next.js',
+                path: 'assets/nextJs.jpg',
+            },
+            {
+                id: 5,
+                name: 'UploadThing',
+                path: 'assets/uploadThing.png',
+            },
+        ],
     }
 ];
 
