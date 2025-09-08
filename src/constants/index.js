@@ -58,39 +58,77 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Giresuni - Poetry and Blog Platform',
-        desc: 'Giresuni is a personal website dedicated to showcasing the creative works of an author writing under the pseudonym Giresuni. The site features a dynamic collection of blogs and poems, all written and published by the author. Through insightful blog posts, Giresuni explores topics ranging from local news and cultural reflections to personal experiences.',
+        title: 'AI Coach - Smart Study-Plan and Session Scheduler',
+        desc: 'AI Mentor is a Firebase-backed Flutter app that generates personalized study schedules with Google Gemini and includes an AI-powered learning area to explain topics and answer questions.',
         subdesc:
-            'Built as a unique web platform with Next.js 14, Tailwind CSS, and MongoDB, Giresuni is designed for fast performance and scalability.',
-        href: 'https://www.giresuni.com',
-        texture: 'textures/project/project1.mp4',
-        logo: 'assets/project-logo1.png',
+            'Features email/password auth, Cloud Firestore storage, Windows/Web/Android support, and an integrated “Learn with AI” chat where you can explore session topics and get guided explanations.',
+        href: 'https://github.com/MetehanMuradTali/Ai-Coach',
+        texture: 'textures/project/project3.mp4',
+        logo: 'assets/project-logo3.png',
         logoStyle: {
-            backgroundColor: '#2A1816',
-            border: '0.2px solid #36201D',
-            boxShadow: '0px 0px 60px 0px #AA3C304D',
+            backgroundColor: '#bca1b8ff',
+            border: '0.2px solid #ddb3d6ff',
+            boxShadow: '0px 0px 60px 0px #b570acff',
+        },
+        spotlight: 'assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: 'assets/flutterLogo.png',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/bloc.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: 'assets/firebaseLogo.png',
+            },
+
+        ],
+    },
+    {
+        title: 'Irydium - Futuristic AI Class and Eye-Tracking Learning Platform',
+        desc: 'Irydium is a next-generation education platform where teachers can upload PDFs, assign homework, and add notes. Students can open these materials with integrated eye-tracking that detects focus points and struggle areas, which are then clearly explained by AI with tailored guidance.Irydium is a next-generation education platform where teachers can upload PDFs, assign homework, and add notes, while students can open these materials with integrated eye-tracking to detect focus points and areas of struggle.',
+        subdesc:
+            'Built with Flutter and Firebase, Irydium features secure email authentication, Firestore-based class management, PDF viewing and annotation with Syncfusion, and real-time eye-tracking powered by Eyedid. It integrates Firebase AI for personalized explanations, Cloud Functions for backend logic, and supports cross-platform deployment with a clean UI enhanced by Google Fonts, Material Icons, and custom animations.',
+        href: 'https://github.com/MetehanMuradTali/Irydium',
+        texture: 'textures/project/project5.mp4',
+        logo: 'assets/project-logo5.png',
+        logoStyle: {
+            backgroundColor: '#b8cd3fff',
+            border: '0.2px solid #1f2458ff',
+            boxShadow: '0px 0px 60px 0px #bbcf4bb3',
         },
         spotlight: 'assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'assets/react.svg',
+                path: 'assets/flutterLogo.png',
             },
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                path: 'assets/bloc.png',
             },
             {
                 id: 3,
                 name: 'MongoDB',
-                path: 'assets/mongoDB.png',
+                path: 'assets/firebaseLogo.png',
             },
             {
                 id: 4,
                 name: 'Next.js',
-                path: 'assets/nextJs.jpg',
+                path: 'assets/eyedid.png',
+            },
+            {
+                id: 5,
+                name: 'syncfusion',
+                path: 'assets/syncfusion.png',
             },
         ],
     },
@@ -128,36 +166,40 @@ export const myProjects = [
         ],
     },
     {
-        title: 'AI Coach - Smart Study-Plan and Session Scheduler',
-        desc: 'AI Mentor is a Firebase-backed Flutter app that generates personalized study schedules with Google Gemini and includes an AI-powered learning area to explain topics and answer questions.',
+        title: 'Giresuni - Poetry and Blog Platform',
+        desc: 'Giresuni is a personal website dedicated to showcasing the creative works of an author writing under the pseudonym Giresuni. The site features a dynamic collection of blogs and poems, all written and published by the author. Through insightful blog posts, Giresuni explores topics ranging from local news and cultural reflections to personal experiences.',
         subdesc:
-            'Features email/password auth, Cloud Firestore storage, Windows/Web/Android support, and an integrated “Learn with AI” chat where you can explore session topics and get guided explanations.',
-        href: 'https://github.com/MetehanMuradTali/Ai-Coach',
-        texture: 'textures/project/project3.mp4',
-        logo: 'assets/project-logo3.png',
+            'Built as a unique web platform with Next.js 14, Tailwind CSS, and MongoDB, Giresuni is designed for fast performance and scalability.',
+        href: 'https://www.giresuni.com',
+        texture: 'textures/project/project1.mp4',
+        logo: 'assets/project-logo1.png',
         logoStyle: {
-            backgroundColor: '#bca1b8ff',
-            border: '0.2px solid #ddb3d6ff',
-            boxShadow: '0px 0px 60px 0px #b570acff',
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: 'assets/spotlight2.png',
+        spotlight: 'assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'assets/flutterLogo.png',
+                path: 'assets/react.svg',
             },
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'assets/bloc.png',
+                path: 'assets/tailwindcss.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: 'assets/firebaseLogo.png',
+                name: 'MongoDB',
+                path: 'assets/mongoDB.png',
             },
-
+            {
+                id: 4,
+                name: 'Next.js',
+                path: 'assets/nextJs.jpg',
+            },
         ],
     },
     {
